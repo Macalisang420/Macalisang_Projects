@@ -1,0 +1,40 @@
+num = int(input('Input your chosen number: '))
+
+if num < 0:
+    print('Your number is Negative: ' + str(num))
+elif num > 0:
+    print('Your number is Positive: ' + str(num))
+else:
+    print('Your number is neither positive nore negative')
+
+name = input('Enter your name:')
+
+math = float(input('Enter their grade in math: '))
+science = float(input('Enter their grade in science: '))
+english = float(input('Enter their grade english: '))
+ict = float(input('Enter their grade in ict: '))
+filipino = float(input('Enter their grade in filipino: '))
+
+ave = (math + science + english + ict + filipino) / 5
+
+if ave > 85:
+    print(name + ' average: ' + str(ave) + ' Pass ' + 'With Highest Honor')
+elif 80 <= ave <= 85:
+    print(name + ' average: ' + str(ave) + ' Pass ' + 'With Honor')
+elif 75 <= ave <= 80:
+    print(name + ' average: ' + str(ave) + ' Pass')
+elif ave < 75:
+    print(name + ' average: ' + str(ave) + ' Fail')
+
+
+
+user = 'Jessepy'
+password = 'Unkodaisuki69'
+
+username = input('Enter your username: ')
+passWord = input('Enter your password: ')
+
+if username == user and passWord == password:
+    print('Login')
+else:
+    print('Incorrect credentials!')

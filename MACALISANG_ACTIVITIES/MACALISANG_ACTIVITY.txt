@@ -1,0 +1,42 @@
+
+n = 10
+while n > 0:
+    print(n)
+    n -= 1
+
+i = 0
+sum = 0
+
+while i < 5:
+   num =  int(input('Enter num: '))
+   sum = sum + num
+   print('sum: ', sum)
+   i += 1
+
+
+i = 1
+n = int(input('Enter number: '))
+
+while i <= n:
+    print(i)
+    i += 1
+
+
+n = int(input('Enter number of times you want it to be printed: '))
+i = 1
+while i <= n:
+    print('Hello')
+    print('count: ', i)
+    i += 1
+
+
+secretWord = 'Poop'
+print('Guess the secret word')
+guess = ''
+while guess != secretWord:
+    guess = input('Enter your guess: ')
+
+    if guess == secretWord:
+        print('Congratulations! You guessed the secret word!')
+    else:
+        print('Try again!')

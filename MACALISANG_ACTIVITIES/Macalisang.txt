@@ -1,0 +1,38 @@
+name = input('Input your name: ')
+age = input('Input your age: ')
+
+
+print(name + str(age))
+
+
+
+print('Please share the information asked for:\n');
+
+
+fnum = int(input('Input first number: '))
+snum = int(input('Input second number: '))
+
+
+sum = fnum + snum
+
+print('sum = ', sum)
+
+
+carBrands = ['Toyota', 'Mazda', 'Lamborghini', 'Suzuki', 'Tesla']
+
+carBrands.insert(2, 'Pagani')
+
+carBrands.remove('Lamborghini')
+
+print(carBrands)
+
+Output: 
+Input your name: Nina
+Input your age: 34
+Nina34
+Please share the information asked for:
+
+Input first number: 46
+Input second number: 76
+sum =  122
+['Toyota', 'Mazda', 'Pagani', 'Suzuki', 'Tesla']

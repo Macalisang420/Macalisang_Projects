@@ -1,0 +1,63 @@
+name = str(input('Enter your name: '))
+age = int(input('Enter your age: '))
+
+print(name + ' ' + str(age))
+
+Output:
+Enter your name: IAN
+Enter your age: 18
+IAN 18
+
+
+fname = str(input('Enter your first name: '))
+lname = str(input('Enter your last name: '))
+gender = str(input('Enter your first gender: '))
+age = int(input('Enter your age: '))
+phoneNumber = int(input('Enter your phone number: '))
+location = str(input('Enter your location: '))
+	
+
+print(fname, lname, gender, age, phoneNumber, location)
+
+Output:
+
+Enter your first name: Ian
+Enter your last name: Macalisang
+Enter your first gender: male
+Enter your first age: 18
+Enter your phone number: 09204837734
+Enter your location: Cebu
+Ian Macalisang male 18 9204837734 Cebu
+
+
+num1 = int(input('Input first number: '))
+num2  = int(input('Input second number: '))
+
+sum = num1 + num2
+print(str(num1) + ' + ' + str(num2) + ' = ' + str(sum))
+
+Output:
+
+Input first number: 2
+Input second number: 2
+2 + 2 = 4
+
+
+studName = str(input('Enter student name: '))
+math = int(input('Enter their grade in math: '))
+science = int(input('Enter their grade in science: '))
+ict = int(input('Enter their grade in ict: '))
+english = int(input('Enter their grade in english: '))
+
+average = ((math + science + ict + english) / 4)
+
+print('Student name: ' + studName + ' Average: ' + str(average))
+
+Output:
+
+Enter student name: Daniel Ian Macalisang
+Enter their grade in math: 91
+Enter their grade in science: 92
+Enter their grade in ict: 92
+Enter their grade in english: 93
+Student name: Daniel Ian Macalisang Average: 92.0

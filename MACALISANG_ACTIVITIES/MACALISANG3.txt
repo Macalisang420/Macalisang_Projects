@@ -1,0 +1,45 @@
+
+cars = ['HONDA', 'TOYOTA', 'HYUNDAO', 'NISSAN', 'SUZUKI']
+
+cars.append('BMW')
+cars.append('LAMBORGHINI')
+cars.append('PAGANI')
+
+print(cars)
+
+Output:
+
+['HONDA', 'TOYOTA', 'HYUNDAO', 'NISSAN', 'SUZUKI', 'BMW', 'LAMBORGHINI', 'PAGANI']
+
+
+
+motorBrands = ['HONDA', 'BMW', 'SUZUKI', 'KAWASAKI', 'AUDI']
+
+motorBrands.insert(3, 'Vespa')
+del motorBrands [-1]
+
+print(motorBrands)
+
+Output:
+
+['HONDA', 'BMW', 'SUZUKI', 'Vespa', 'KAWASAKI']
+
+
+fruits = ['apple', 'orange', 'pineapple', 'grapes', 'durian']
+fruits[4] = 'jackfruit'
+
+print(fruits)
+
+Output: 
+
+['apple', 'orange', 'pineapple', 'grapes', 'jackfruit']
+
+animals = ['dog', 'cat', 'tiger', 'monkey', 'capybara']
+
+animals.remove('tiger')
+
+print(animals)
+
+Output: 
+
+['dog', 'cat', 'monkey', 'capybara']
